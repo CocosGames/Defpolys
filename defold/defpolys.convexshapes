@@ -1,0 +1,6 @@
+{% for body in bodies %}{% for fixture in body.fixtures %}{% for polygon in fixture.polygons %}shape_type: TYPE_HULL{% for point in polygon %}
+data: {{point.x}}
+data: {{point.y}}
+data: 0{% endfor %}
+
+{% endfor %}{% endfor %}{% endfor %}

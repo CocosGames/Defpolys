@@ -1,0 +1,16 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[display]
+width = 960
+height = 640
+
+[project]
+title = DefploysTest
+
+[physics]
+debug = 1
+scale = 0.1
+gravity_y = -1000.0
+max_collisions = 200
+
